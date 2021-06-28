@@ -1,0 +1,2 @@
+2021-06-24T02:25:06+00:00 CRITICAL Out of memory (allocated 33554432) (tried to allocate 131072 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php on line 603
+

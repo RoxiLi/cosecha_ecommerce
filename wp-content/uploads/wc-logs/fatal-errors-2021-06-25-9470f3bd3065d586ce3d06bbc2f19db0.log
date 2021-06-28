@@ -1,0 +1,11 @@
+2021-06-25T15:22:40+00:00 CRITICAL Uncaught TypeError: get_class(): Argument #1 ($object) must be of type object, array given in C:\xampp\htdocs\wordpress\wp-content\plugins\wc-payphone-gateway\includes\wc-gateway-payphone-extras.php:164
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wc-payphone-gateway\includes\wc-gateway-payphone-extras.php(122): WC_Gateway_PayPhone_Extras->statusCall('', '', 'https://pay.pay...')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\wc-payphone-gateway\includes\wc-gateway-payphone-extras.php(85): WC_Gateway_PayPhone_Extras->get_tx_status('', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(290): WC_Gateway_PayPhone_Extras->get_payphone_result_schedule()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('woocommerce_can...', Array)
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wc-payphone-gateway\includes\wc-gateway-payphone-extras.php on line 164
+
